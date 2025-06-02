@@ -1,0 +1,6 @@
+Package: JimberNetworkIsolationClient
+Version: 0.0.1
+Maintainer: Jimber.io
+Architecture: all
+Description: Jimber Network Isolation Client
+Depends: wireguard, iptables

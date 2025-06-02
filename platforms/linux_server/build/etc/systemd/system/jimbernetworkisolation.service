@@ -1,0 +1,19 @@
+[Unit]
+Description=jimbernetworkisolation
+
+
+[Service]
+User=root
+ProtectHome=false
+ProtectSystem=false
+SyslogIdentifier=jimbernetworkisolation
+ExecStartPre=+-/sbin/modprobe tun
+ExecStart=/usr/local/bin/jimberfw_launcher
+ExecStop=bash -c "pkill jimberfw_launcher ; pkill jimberfw"
+ExecReload=bash -c "pkill jimberfw_launcher ; pkill jimberfw"
+Restart=always
+TimeoutStopSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

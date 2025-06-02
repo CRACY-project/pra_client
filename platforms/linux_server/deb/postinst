@@ -1,0 +1,4 @@
+#!/bin/bash
+chown root:root /etc/systemd/system/jimbernetworkisolation.service
+systemctl enable jimbernetworkisolation
+systemctl start jimbernetworkisolation

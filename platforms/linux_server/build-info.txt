@@ -1,0 +1,5 @@
+Version: 0.0.1
+Tag: 0.0.1
+Git SHA hash: c17dbedd004eaf9291a491bae5e49d555defdfe4 
+Binary SHA1 hash: b1351e12704fd2048167c836dc03717c17a621b5
+Timestamp: Thu, Mar 20, 2025  01:43:29 PM
